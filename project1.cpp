@@ -1,5 +1,24 @@
 #include<iostream>  //calender by developer  jayantnis  in unschool 
 using namespace std;
+/*Learners are required to prepare of calender that provides the 
+ following data: 
+ 
+ 1. It display a nicely formatted calendar of every month.
+ 2. you can find the day by entering the day ,month and year .For
+ 	example, if you enter day=10,month =03 and year =1991,it gives you the day 
+	 'sunday' the day.
+	 
+ 3. you can add the note for a pariticular day.  If the give month has 
+ 	a note  in,it will display in that day.
+	 EX:- 
+	 This program show calcnder of
+	 a given moth.Enter moth year ...format is mm-yyyy
+	 Enter mm-yyyy:06-2014
+	 
+	 once user Enters a valid month -year and hits Enter key,
+	 it should  display the calender of the entered month as shown below:
+	 	
+	  */ 
 
 //formula
 	int dayNumber(int day, int month, int year)
